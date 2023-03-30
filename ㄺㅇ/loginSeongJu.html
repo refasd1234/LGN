@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url( loginSJ.css );
+    </style>
+
+    <script src="loginSJ.js"></script>
+    
+</head>
+<body>
+    <div id="a">
+    <div id="main">
+        <form action="">
+            <fieldset>
+                <header>로그인</header><br>
+        <input type="text" class="IDPW" name="" id="id" placeholder="ID를 입력해주세요." minlength="6" pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9]).{6,50}$"><br><br>
+        <input type="password" class="IDPW" name="" id="pw" placeholder="PW를 입력해주세요." minlength="4" pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*()_-+=[]{}~?:;`|/]).{6,50}$"><br>
+        <p id="p"></p>
+        <input type="checkbox" name="" id="" style="cursor: pointer;"><b> 자동 로그인</b><br><br>
+        <input type="submit" name="" id="loginbtn" value="LOGIN" onclick="checkAll()"><hr>
+    <footer>
+        혹시 계정이 없으시다면... <input type="button" name="" id="fbtn" value="SIGN UP">
+        <input type="button" class="btn" name="" id="" value="ID/PW 찾기"><br>
+        <a href="https://accounts.google.com/v3/signin/identifier?dsh=S-553253773%3A1680155987072135&continue=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3D%25EA%25B5%25AC%25EA%25B8%2580%26oq%3D%25EA%25B5%25AC%25EA%25B8%2580%26aqs%3Dchrome..69i57j69i61.888j0j4%26sourceid%3Dchrome%26ie%3DUTF-8&ec=GAZAAQ&flowEntry=ServiceLogin&flowName=GlifWebSignIn&hl=ko&ifkv=AQMjQ7R-FRMYQjW61YqVuv4TM3PjS29rN05xHO7G08cuYW-dD02el7SDQ-yQQM1sxeEBMGSIjDTU&passive=true" target="_self"><input type="button" class="btn" name="" id="" value="Google 연동" style="background-color: red;"></a><br>
+        <a href="https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com" target="_self"><input type="button" class="btn" name="" id="" value="Naver 연동" style="background-color: rgb(128, 206, 10);"></a><br>
+    </footer>
+            </fieldset>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
