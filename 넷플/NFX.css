@@ -1,0 +1,49 @@
+#p{
+    position: absolute;
+    left: 10PX;
+    top: -60px;
+    font-size: 80px;
+    color: red;
+    font-weight: bold;
+}
+
+#main .a{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#sub {
+    width: 208px;
+}
+
+#main{
+    position: fixed;
+    left: 40%;
+    top: 30%;
+    width: 20%;
+    height: 50%;
+    display: block;
+}
+
+#login{
+    text-align: center;
+}
+
+#sub2{
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#sub3{
+    background-color: rgb(71, 255, 71);
+    font-weight: bold;
+    color: white;
+}
+
+#sub4{
+    background-color: gray;
+    font-weight: bold;
+    color: white;
+}
